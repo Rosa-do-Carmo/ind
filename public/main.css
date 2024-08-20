@@ -19,17 +19,21 @@ main {
     overflow-x: hidden;
 }
 
-.page-1 {
-    display: block;
+.page {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: -100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 0;
+    position: static;
 }
-
-.page-2 {
-    display: none;
-}
-
-.page-3 {
-    display: none;
-}
+.page:target {
+    left: 0vw;
+    z-index: 2;
+  }
+  
 
 h2,
 h3,

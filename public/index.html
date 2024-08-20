@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="main.css">
-  <title>Document</title>
+  <title>Wasteful Freedom</title>
 </head>
 
 <body>
@@ -34,8 +34,12 @@
     </header>
     <main>
       <h2>Index</h2>
-      <p><a href="">Porfolio</a> <a href="">Page 2</a> <a href="">Page 3</a></p>
-      <div class="page-1">
+      <div class="page" id="page-1">
+        <ul>
+          <li><a href="#">Back</a></li>
+          <li><a href="#page-2">Page 2</a></li>
+          <li><a href="#page-3">Page 3</a></li>
+        </ul>
         <h3>Past Commissions</h3>
         <div class="img-row">
           <div class="img-col">
@@ -61,7 +65,12 @@
         </div>
         <hr>
       </div>
-      <div class="page-2">
+      <div class="page" id="page-2">
+        <hr>
+        <ul>
+          <li><a href="#page-1">Porfolio</a></li>
+          <li><a href="#page-3">Page 3</a></li>
+        </ul>
         <h3>Metro Schedule App</h3>
         <p>Once again, it started bored in class, just a year later. This class is the worst bythe way, they gave us a
           group of 10 people to make the work that would take 3 or 4 people. Besides that, the expectations the teacher
@@ -103,7 +112,7 @@
           with the metro times was different than the one with the station names so it only used ids. So I had to run a
           new file throught the script and make the programme take the inpute station name and look for the
           correspondent station id. And with that, I could finally dig for times.</p>
-        <p><img src="/data/2/badcode.jpg" alt="badcode">
+        <p><img src="data/2/badcode.png" alt="badcode">
           Listen, this is not my finest coding moment.</p>
         <p>After that, made the user specify the exact metro line so that I can look for the perfect trip ids to print
           out. Then I realised I had a new problem where I have no way of looking for every single metro line looking
@@ -113,7 +122,13 @@
           for each combination of line and schedule go up to 99, 0..49 for direction 1 and 50..99 for direction 2. So I
           just threw it in a <em>for</em> loop and called it a day.</p>
       </div>
-      <div class="page-3">
+      <hr>
+      <div class="page" id="page-3">
+        <hr>
+        <ul>
+          <li><a href="#page-1">Porfolio</a></li>
+          <li><a href="#page-2">Page 2</a></li>
+        </ul>
         <h3>Maps</h3>
         <p>As you can probably tell by now, whenever I get bored in class, I seem to go deeper into the spectrum.</p>
         <p>There are a few projects that have started from my boredom, but most of them aren&#39;t big enough for me to
@@ -123,11 +138,11 @@
         <p>I know this sounds like the most utterly specific hobbie ever thought of......There&#39;s no &quot;but&quot;,
           that&#39;s it. </p>
         <p>Here are the ones I have so far</p>
-        <p><img src="/data/3/portugal_og.jpg" alt="og" />
-          <img src="/data/3/layers.jpg" alt="layers" />
-          <img src="/data/3/portugal_final.jpg" alt="final" />
-          <img src="/data/3/final-mz.jpg" alt="final" />
-          <img src="/data/3/german_map.jpg" alt="final" />
+          <img src="data/3/portugal_og.jpg" alt="og" />
+          <img src="data/3/layers.png" alt="layers" />
+          <img src="data/3/portugal_final.jpg" alt="final" />
+          <img src="data/3/final-mz.jpg" alt="final" />
+          <img src="data/3/german_map.png" alt="" />
         <p>I don&#39;t know why I do this, but it is quite fun.</p>
       </div>
     </main>

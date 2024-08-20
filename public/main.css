@@ -162,34 +162,39 @@ img {
     max-height: 50vh;
 }
 
-.img-colage {
-    display: inline-block;
+.img-col {
+    flex: 100%;
+    max-width: 33%;
+    padding: 0 0px;
+}
+
+.img-col img {
+    margin-top: 8px;
+    vertical-align: middle;
     width: 100%;
-    font-size: 0;
-    margin: 0;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
-.img-colage img {
-    display: inline-block;
-    margin: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0;
-    width: 13vw;
-    height: 13vw;
-    overflow: hidden;
-    background-image: url(SVG/box.svg);
-    transition: transform .2s;
-    object-fit: cover;
-}
-
-.img-colage img:hover {
+/*
+.img-col img:hover {
     transition: transform .2s;
     transform: scale(2);
     z-index: 3;
     height: auto;
+    max-width: 50%;
+}
+*/
+.img-row {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.misc {
+    max-width: 50%;
+    flex: 50%;
 }
 
 hr {

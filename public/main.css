@@ -84,6 +84,7 @@ ol {
     background-color: var(--col6);
     max-width: 40vw;
     width: fit-content;
+    margin-right: 2vw;
 }
 
 

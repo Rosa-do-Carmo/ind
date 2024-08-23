@@ -6,7 +6,7 @@
     --col0: #e7dbc1;
     --col1: #e17b43;
     --col2: #31313188;
-    --col2f:#313131;
+    --col2f: #313131;
     --col3: #8abdaf;
     --col4: #deb065;
     --col5: #bb6152;
@@ -22,20 +22,26 @@ html {
     color: var(--col2f);
     font-family: Gabarito, monospace;
     background-color: var(--col0);
-    max-height: 100vh;
-    max-width: 100vh;
     overflow: hidden;
 }
 
-/* Background */
+@media only screen and (min-width: 801px) {
 
-html, body, .wrap {
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
+    html,
+    body,
+    .wrap {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
 }
 
-body{
+
+
+/* Background */
+
+body {
     background-color: var(--col2);
     background-image: url("SVG/box.svg");
     background-repeat: repeat;
@@ -121,7 +127,7 @@ header {
     height: 1vh;
     top: 12vh;
     margin-bottom: 12vh;
-    background-image: linear-gradient(to right, var(--col3) 33%, var(--col4) 33%, var(--col4) 66%, var(--col5) 66%);   
+    background-image: linear-gradient(to right, var(--col3) 33%, var(--col4) 33%, var(--col4) 66%, var(--col5) 66%);
 }
 
 h1 {
@@ -145,6 +151,7 @@ h1 {
     z-index: 1;
     background-image: url(SVG/box.svg);
 }
+
 .bs-1 {
     background-image: url(SVG/discord.svg);
     background-size: 90%;

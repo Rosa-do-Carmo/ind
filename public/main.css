@@ -29,11 +29,12 @@ main {
     z-index: 0;
     position: static;
 }
+
 .page:target {
     left: 0vw;
     z-index: 2;
-  }
-  
+}
+
 
 h2,
 h3,
@@ -116,11 +117,14 @@ p {
     margin-right: 2vw;
 }
 
-a {
+a, a::after{
     color: var(--col1);
     text-decoration: none;
 }
 
+.text a, .text a::after {
+    color: var(--col4);
+}
 
 
 tr:nth-child(even) {
@@ -199,6 +203,7 @@ img {
 
 .misc {
     max-width: 50%;
+    height: auto;
     flex: 50%;
 }
 

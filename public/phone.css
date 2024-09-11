@@ -69,6 +69,14 @@
     }
 
     iframe {
-        width: 50vw !important;
+        width: 100% !important;
+    }
+
+    .books {
+        display: block;
+    }
+
+    .books .misc {
+        max-width: 100%;
     }
 }

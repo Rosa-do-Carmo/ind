@@ -203,7 +203,7 @@ img {
 
 .misc {
     max-width: 50%;
-    height: auto;
+    height: auto !important;
     flex: 50%;
 }
 

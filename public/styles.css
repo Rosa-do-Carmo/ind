@@ -153,10 +153,30 @@ h1 {
 }
 
 .bs-1 {
-    background-image: url(SVG/discord.svg);
+    background-image: url(SVG/home.svg); 
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center center;
+    color: var(--col3);
+    text-align: center;
+}
+
+.bs-2 {
+    background-image: url(SVG/img-file.svg); 
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: var(--col4);
+    text-align: center;
+}
+
+.bs-3 a {
+    background-image: url(SVG/play.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: var(--col5);
+    text-align: center;
 }
 
 .socials {

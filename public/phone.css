@@ -60,4 +60,15 @@
         width: max-content;
         max-width: 80%;
     }
+
+    .misc {
+        display: inline-block;
+        width: 100%;
+        height: auto !important;
+        flex: 100%;
+    }
+
+    iframe {
+        width: 50vw !important;
+    }
 }

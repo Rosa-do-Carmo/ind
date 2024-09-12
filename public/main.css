@@ -32,7 +32,7 @@ main {
 
 .page:target {
     left: 0vw;
-    z-index: 2;
+    z-index: 1;
 }
 
 
